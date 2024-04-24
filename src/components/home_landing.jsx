@@ -10,11 +10,13 @@ function HomeLanding(){
 <button className="flex bg-gradient-to-r from-[#F15858] to-[#F67E4F] h-10 w-40 rounded-[20px] items-center justify-center gap-2">
 <p className="roboto-regular text-lg text-white">Get the App</p><img src="./images/arrow.png"/>
 </button>
-    <button className="flex h-10 w-40 rounded-[20px] items-center justify-center gap-2"></button>
+    <button className="flex h-10 w-40 rounded-[20px] items-center justify-center gap-2 border-[#FC7E4D] border-2 hover:bg-[#FC7E4D] text-[#FC7E4D] hover:text-white">
+    <p className="roboto-regular text-lg ">Know More</p>
+    </button>
 </div>
         </div>
         <div>
-            <img className="h-[70vh] w-auto" src="/images/hero_img_landing.png"/>
+            <img className="h-[70vh] w-auto" src="/images/hero_landing.svg"/>
         </div>
     </div></>
 }
